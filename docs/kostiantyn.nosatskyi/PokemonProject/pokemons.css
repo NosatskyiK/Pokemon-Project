@@ -119,6 +119,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  width: 100%;
 }
 
 /* checkbox, radio and drop down list */
@@ -134,12 +135,18 @@ body {
 
 .checkbox[type="checkbox"] {
   border-radius: 4px;
+  border: 1px solid #FFF;
 }
 
 /* radio */
 
 .radio[type="radio"] {
   border-radius: 50px;
+  border: 1px solid #909090;
+}
+
+.label__txt-radio {
+  color: #909090;
 }
 
 /* checkbox and radio*/
@@ -152,14 +159,13 @@ body {
 
 .checkbox[type="checkbox"], .radio[type="radio"] {
   appearance: none;
-  border: 1px solid #FFF;
   width: 20px;
   height: 20px;
   cursor: pointer;
   margin: 0;
 }
 
-.checkbox[type="checkbox"]:checked, .radio[type="radio"]:checked {
+.checkbox[type="checkbox"]:checked {
   background-color: #EF4934;
 }
 
@@ -311,7 +317,7 @@ page we are on will behave
   justify-content: space-around;
   gap: 25px;
   border-radius: 12px;
-  margin: 40px 53px auto 52px;
+  margin: 0 53px auto 52px;
 }
 
 .loader__container {

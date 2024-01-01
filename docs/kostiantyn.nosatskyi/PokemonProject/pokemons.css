@@ -81,11 +81,13 @@ body {
   align-items: center;
   background-color: #FFF;
   border-radius: 6px;
-  width: 377px;
+  width: 100%;
+  max-width: 377px;
 }
 
 .search__img {
-  width: 19px;
+  width: 100%;
+  max-width: 19px;
   height: 20px;
   background-color: #FFF;
   padding: 3px 2px 2px 3px;
@@ -358,7 +360,7 @@ page we are on will behave
   gap: 32px;
   justify-content: center;
   margin: 0;
-  padding: 30px 0 32px 0;
+  padding: 30px 0 32px;
 }
 
 .footer__txt {
@@ -373,11 +375,11 @@ page we are on will behave
   font-size: 22px;
   line-height: 32px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .footer__link {
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 @media (max-width: 900px) {
@@ -420,7 +422,7 @@ page we are on will behave
   }
 
   .navigation {
-    margin: 0 0 28px 0;
+    margin: 0 0 28px;
     gap: 15px;
   }
 
@@ -439,7 +441,7 @@ page we are on will behave
     margin: 0;
   }
 
-  .footer__main-txt{
+  .footer__main-txt {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -449,5 +451,4 @@ page we are on will behave
     font-size: 14px;
     font-weight: 500;
   }
-
 }
